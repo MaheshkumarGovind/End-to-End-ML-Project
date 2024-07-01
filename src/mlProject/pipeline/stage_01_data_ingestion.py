@@ -1,6 +1,7 @@
 from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.data_ingestion import DataIngestion
 from mlProject import logger
+from mlProject.utils.common import get_size
 
 
 STAGE_NAME = "Data Ingestion stage"

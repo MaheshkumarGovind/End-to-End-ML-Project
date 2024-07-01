@@ -4,6 +4,7 @@ import zipfile
 from mlProject import logger
 from pathlib import Path
 from mlProject.entity.config_entity import (DataIngestionConfig)
+from mlProject.utils.common import get_size
 
 
 class DataIngestion:
